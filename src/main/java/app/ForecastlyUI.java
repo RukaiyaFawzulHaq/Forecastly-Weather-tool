@@ -631,7 +631,7 @@ public class ForecastlyUI extends JFrame {
 
 
     private JPanel dayTile(DailyNode d){
-        JPanel tile = new Theme.GradientPanel(Theme.SPACE, Theme.YINMN); 
+        JPanel tile = new Theme.GradientPanel(Theme.SPACE, Theme.YINMN);
 
         tile.setLayout(new BoxLayout(tile, BoxLayout.Y_AXIS));
         tile.setBorder(new EmptyBorder(12,12,12,12));

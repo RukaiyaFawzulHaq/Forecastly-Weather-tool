@@ -27,7 +27,7 @@ public final class Theme {
 
 
 
-//initializing the fonts
+
     static {
         APP       = pickFont(14f, Font.PLAIN,
                 "Poppins","Inter","SF Pro Display","Segoe UI","Roboto");
@@ -160,7 +160,7 @@ public final class Theme {
         );
     }
 
-    // font helpers
+
     private static Font pickFont(float size, int style, String... names){
         for (String n: names){
             Font f = new Font(n, style, Math.round(size));

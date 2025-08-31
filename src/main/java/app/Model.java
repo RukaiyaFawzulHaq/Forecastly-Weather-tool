@@ -1,6 +1,6 @@
 package app;
 
-/** Data model: linked lists + builders + window scoring. */
+
 public final class Model {
     private Model(){}
 
